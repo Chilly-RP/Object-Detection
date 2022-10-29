@@ -2,7 +2,7 @@
 from matplotlib import pyplot as plt
 import os
 import streamlit as st
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 from PIL import Image
 from pathlib import Path
