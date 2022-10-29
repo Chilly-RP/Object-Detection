@@ -1,19 +1,11 @@
 
-import time
 from matplotlib import pyplot as plt
 import os
 import streamlit as st
 import tensorflow as tf
-import os, subprocess, re
 import numpy as np
 from PIL import Image
-import shutil
-import json
-from google.protobuf import text_format
-import pprint
-import random
 from pathlib import Path
-from google.protobuf import text_format
 from object_detection.utils import dataset_util, label_map_util
 from object_detection.protos import string_int_label_map_pb2
 from object_detection.protos import pipeline_pb2
