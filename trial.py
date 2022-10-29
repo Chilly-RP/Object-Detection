@@ -6,8 +6,8 @@ import tensorflow.compat.v1 as tf
 import numpy as np
 from PIL import Image
 from pathlib import Path
-#from object_detection.utils import dataset_util, label_map_util
-import label_map_util
+from object_detection.utils import dataset_util, label_map_util
+#import label_map_util
 from object_detection.protos import string_int_label_map_pb2
 from object_detection.protos import pipeline_pb2
 from object_detection.utils import visualization_utils as vis_util
