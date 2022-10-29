@@ -1,4 +1,4 @@
-tensorflow==1.14.0
+tensorflow==2.5.0
 matplotlib==3.5.2
 Pillow==9.2.0
 tensorflow-object-detection-api==0.1.1
